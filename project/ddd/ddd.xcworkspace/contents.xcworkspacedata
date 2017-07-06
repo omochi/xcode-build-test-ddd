@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../ext/xcode-build-test-aaa/project/aaa/aaa.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../ext/xcode-build-test-bbb/project/bbb/bbb.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../ext/xcode-build-test-ccc/project/ccc/ccc.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ddd.xcodeproj">
    </FileRef>
 </Workspace>

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D6F1F2481F0E183F00A61981 /* ddd.c in Sources */ = {isa = PBXBuildFile; fileRef = D6F1F2461F0E183F00A61981 /* ddd.c */; };
+		D6F1F24B1F0E18FA00A61981 /* libbbb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1F24A1F0E18FA00A61981 /* libbbb.a */; };
+		D6F1F24D1F0E196800A61981 /* libccc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1F24C1F0E196800A61981 /* libccc.a */; };
+		D6F1F24F1F0E1BBB00A61981 /* libaaa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1F24E1F0E1BBB00A61981 /* libaaa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +29,9 @@
 		D6F1F23B1F0E180C00A61981 /* ddd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ddd; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F1F2461F0E183F00A61981 /* ddd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ddd.c; sourceTree = "<group>"; };
 		D6F1F2471F0E183F00A61981 /* ddd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ddd.h; sourceTree = "<group>"; };
+		D6F1F24A1F0E18FA00A61981 /* libbbb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbbb.a; path = "../../ext/xcode-build-test-bbb/project/bbb/build/Debug/libbbb.a"; sourceTree = "<group>"; };
+		D6F1F24C1F0E196800A61981 /* libccc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libccc.a; path = "../../ext/xcode-build-test-ccc/project/ccc/build/Debug/libccc.a"; sourceTree = "<group>"; };
+		D6F1F24E1F0E1BBB00A61981 /* libaaa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libaaa.a; path = "../../../../../Library/Developer/Xcode/DerivedData/ddd-bcybfiiduarrpbcwhmccnlsdppwg/Build/Products/Debug/libaaa.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F1F24F1F0E1BBB00A61981 /* libaaa.a in Frameworks */,
+				D6F1F24B1F0E18FA00A61981 /* libbbb.a in Frameworks */,
+				D6F1F24D1F0E196800A61981 /* libccc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			children = (
 				D6F1F2451F0E183600A61981 /* src */,
 				D6F1F23C1F0E180C00A61981 /* Products */,
+				D6F1F2491F0E18FA00A61981 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +73,16 @@
 			);
 			name = src;
 			path = ../../src;
+			sourceTree = "<group>";
+		};
+		D6F1F2491F0E18FA00A61981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1F24E1F0E1BBB00A61981 /* libaaa.a */,
+				D6F1F24C1F0E196800A61981 /* libccc.a */,
+				D6F1F24A1F0E18FA00A61981 /* libbbb.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
