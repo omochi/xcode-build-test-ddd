@@ -1,9 +1,9 @@
 [submodule "ext/xcode-build-test-bbb"]
 	path = ext/xcode-build-test-bbb
-	url = github.com:omochi/xcode-build-test-bbb
+	url = https://github.com/omochi/xcode-build-test-bbb
 [submodule "ext/xcode-build-test-aaa"]
 	path = ext/xcode-build-test-aaa
-	url = github.com:omochi/xcode-build-test-aaa
+	url = https://github.com/omochi/xcode-build-test-aaa
 [submodule "ext/xcode-build-test-ccc"]
 	path = ext/xcode-build-test-ccc
-	url = github.com:omochi/xcode-build-test-ccc
+	url = https://github.com/omochi/xcode-build-test-ccc
